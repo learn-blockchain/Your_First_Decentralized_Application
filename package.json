@@ -1,0 +1,24 @@
+{
+  "name": "dapp-voting",
+  "version": "0.0.1",
+  "description": "my first dapp. a voting app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-blockchain/Your_First_Decentralized_Application.git"
+  },
+  "keywords": [
+    "dapp",
+    "voting"
+  ],
+  "author": "Adam Hanna <ahanna@alumni.mines.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "solc": "^0.4.19",
+    "web3": "^0.20.1"
+  }
+}
